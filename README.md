@@ -2,7 +2,7 @@
 
 ## Overview
 
-The "Brain MRI Reconstruction" project focuses on reconstructing high-quality brain MRI images from corrupted or partial data using deep learning techniques. This repository contains the code and pipeline for training a U-Net model specifically adapted to handle and improve MRI data stored in the .t5 format.
+The "Brain MRI Reconstruction" project focuses on reconstructing high-quality brain MRI images from corrupted or partial data using deep learning techniques. This repository contains the code and pipeline for training a U-Net model specifically adapted to handle and improve MRI data stored in the .h5 format.
 
 ## Data Preprocessing
 
