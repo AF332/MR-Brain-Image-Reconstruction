@@ -8,9 +8,9 @@ The "Brain MRI Reconstruction" project focuses on reconstructing high-quality br
 
 Data Loading
 
-The project uses the .t5 format for both input and target MRI data. This format requires specialised handling for loading and preprocessing:
+The project uses the .h5 format for both input and target MRI data. This format requires specialised handling for loading and preprocessing:
 
-- Loading: Data is loaded using custom Python scripts that interface with libraries capable of handling .t5 files, extracting MRI data effectively for further processing.
+- Loading: Data is loaded using custom Python scripts that interface with libraries capable of handling .h5 files, extracting MRI data effectively for further processing.
 
 Preprocessing Steps
 
