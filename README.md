@@ -16,7 +16,7 @@ Preprocessing Steps
 
 The preprocessing routine includes several critical steps to prepare the MRI data for training:
 
-- Normalisation: MRI data from .t5 files is normalised to have a consistent range of values, typically between 0 and 1, which helps in stabilising the neural network training by providing a common scale.
+- Normalisation: MRI data from .h5 files is normalised to have a consistent range of values, typically between 0 and 1, which helps in stabilising the neural network training by providing a common scale.
 - Rescaling: Images are rescaled to a fixed size to ensure that the input to the U-Net is uniform. This step typically involves adjusting the resolution of the images to fit the model’s expected input size without distorting the important features of the brain structures.
 
 ## Model Architecture
